@@ -32,8 +32,8 @@ spring:
         serialization.indent_output: true
     data:
         mongodb:
-            uri: mongodb://localhost:27017
-            database: instagram
+            uri: mongodb://localhost:27017/admin
+            database: admin
         elasticsearch:
             cluster-name:
             cluster-nodes:
